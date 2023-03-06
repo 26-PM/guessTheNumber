@@ -5,7 +5,7 @@ int main(){
     int counter=1;
     srand(time(0));
     int number=rand()%100+1;
-    printf("The number is %d.\n",number);
+    // printf("The number is %d.\n",number);
 
     do{
         printf("Enter a number between 1-100 only.\n");
